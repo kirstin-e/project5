@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Master HTML, CSS, and JavaScript with easy-to-follow tutorials. Start learning coding basics quickly and easily today!">
+  <meta name="keywords" content="HTML, CSS, JavaScript, coding basics, web development, learn HTML, learn CSS, learn JavaScript">
+
+  <title>Kirstin Codes | Learn HTML, CSS, and JavaScript with me!</title>
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-header">
+      <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="html_basics.html">Welcome to HTML Basics</a></li>
+      <li><a href="images.html">Beautiful Bird Images to Look At If You Have Spare Time!</a></li>
+      <li><a href="#about">About this Website</a></li>
+      <li><a href="#contact">Contact Me</a></li>
+    </ul>
+  </nav>
+
+  <div class="birds">
+    <section id="about">
+    <img src="media/eagle.png" alt="Eagle"> 
+    </section>
+
+   <section id="about">
+   
+<img src="media/owl.png" alt="Owl"> 
+
+    </section>
+  
+
+  </div>
+
+
+
+ <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>

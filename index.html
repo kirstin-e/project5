@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Master HTML, CSS, and JavaScript with easy-to-follow tutorials. Start learning coding basics quickly and easily today!">
+  <meta name="keywords" content="HTML, CSS, JavaScript, coding basics, web development, learn HTML, learn CSS, learn JavaScript">
+
+  <title>Kirstin Codes | Learn HTML, CSS, and JavaScript with me!</title>
+  
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <div class="nav-header">
+      <button class="nav-toggle" id="nav-toggle">&#9776;</button>
+    </div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="html_basics.html">Basics of Learning HTML</a></li>
+      <li><a href="images.html">Two Beautiful Bird Images to Look At If You Have Spare Time!</a></li>
+      <li><a href="#about">About this Website</a></li>
+      <li><a href="contactme.html">Contact Me</a></li>
+    </ul>
+  </nav>
+  <div class="content">
+    <h1>Kirstin Codes : HTML, CSS and Javascript</h1>
+    <section id="about">
+    <h2><a href="#about">About this Website</a></h2>
+    <p>Click <a href="#about">'About this Website'</a> above to learn more about how 'Kirstin Codes' can help you learn the fundamentals of coding in HTML, CSS and Javascript here</p>
+    </section>
+    <section id="contact">
+      <h2><a href="contactme.html">Contact Me</a></h2>
+      <p>Click <a href="contactme.html">'Contact Me'</a> to access my contact details.</p>
+    </section>
+  </div>
+
+
+
+ <script>
+    const navToggle = document.getElementById('nav-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    navToggle.addEventListener('click', () => {
+      navLinks.classList.toggle('show');
+    });
+  </script>
+
+</body>
+</html>
