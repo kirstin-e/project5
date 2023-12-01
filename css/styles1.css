@@ -3,3 +3,7 @@ ul,body {
 	font-family: Arial, sans-serif;
 	color: #333;
 }
+
+span {
+	font-weight: bold;
+}
